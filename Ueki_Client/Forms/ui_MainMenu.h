@@ -33,7 +33,8 @@ public:
         MainMenu->setContextMenuPolicy(Qt::DefaultContextMenu);
         Movie = new QLabel(MainMenu);
         Movie->setObjectName(QString::fromUtf8("Movie"));
-        Movie->setGeometry(QRect(250, 270, 241, 81));
+        Movie->setGeometry(QRect(250, 270, 241, 21));
+        Movie->setMinimumSize(QSize(241, 0));
 
         retranslateUi(MainMenu);
 

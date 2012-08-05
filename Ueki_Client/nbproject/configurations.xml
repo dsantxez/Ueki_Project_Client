@@ -9,6 +9,7 @@
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
                    projectFiles="true">
+      <itemPath>Resources/Images.qrc</itemPath>
       <itemPath>Forms/MainMenu.ui</itemPath>
       <itemPath>Resources/ajax-loader.gif</itemPath>
     </logicalFolder>
@@ -39,6 +40,9 @@
       </toolsSet>
       <qt>
         <modules>core gui</modules>
+        <mocDir>./Forms</mocDir>
+        <rccDir>./Resources</rccDir>
+        <uiDir>./Forms</uiDir>
       </qt>
       <compileType>
       </compileType>

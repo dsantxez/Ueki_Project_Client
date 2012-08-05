@@ -9,7 +9,7 @@
 
 MainMenu::MainMenu() {
     widget.setupUi(this);
-    QMovie  *movie = new QMovie("ajax-loader.gif");
+    QMovie  *movie = new QMovie("Resources/ajax-loader.gif");
     widget.Movie->setMovie(movie);
     movie->start();
 }
