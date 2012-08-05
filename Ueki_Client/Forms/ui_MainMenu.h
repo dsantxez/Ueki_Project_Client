@@ -29,11 +29,11 @@ public:
     {
         if (MainMenu->objectName().isEmpty())
             MainMenu->setObjectName(QString::fromUtf8("MainMenu"));
-        MainMenu->resize(772, 570);
+        MainMenu->resize(640, 480);
         MainMenu->setContextMenuPolicy(Qt::DefaultContextMenu);
         Movie = new QLabel(MainMenu);
         Movie->setObjectName(QString::fromUtf8("Movie"));
-        Movie->setGeometry(QRect(250, 270, 241, 21));
+        Movie->setGeometry(QRect(0, 0, 640, 480));
         Movie->setMinimumSize(QSize(241, 0));
 
         retranslateUi(MainMenu);

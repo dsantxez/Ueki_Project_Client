@@ -9,7 +9,7 @@
 
 MainMenu::MainMenu() {
     widget.setupUi(this);
-    QMovie  *movie = new QMovie(":/ueki_intro.gif");
+    QMovie  *movie = new QMovie(":/images/ueki_intro.gif");
     widget.Movie->setMovie(movie);
     movie->start();
 }

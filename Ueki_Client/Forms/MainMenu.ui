@@ -7,8 +7,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>772</width>
-    <height>570</height>
+    <width>640</width>
+    <height>480</height>
    </rect>
   </property>
   <property name="contextMenuPolicy">
@@ -20,10 +20,10 @@
   <widget class="QLabel" name="Movie">
    <property name="geometry">
     <rect>
-     <x>250</x>
-     <y>270</y>
-     <width>241</width>
-     <height>21</height>
+     <x>0</x>
+     <y>0</y>
+     <width>640</width>
+     <height>480</height>
     </rect>
    </property>
    <property name="minimumSize">
@@ -39,6 +39,7 @@
  </widget>
  <resources>
   <include location="../Resources/Images.qrc"/>
+  <include location="../Resources/Music.qrc"/>
  </resources>
  <connections/>
 </ui>

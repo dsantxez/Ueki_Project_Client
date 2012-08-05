@@ -1,6 +1,6 @@
 <RCC>
   <qresource>
-    <file>ueki_intro.gif</file>
-    <file>ajax-loader.gif</file>
+    <file>images/ueki_intro.gif</file>
+    <file>images/ajax-loader.gif</file>
   </qresource>
 </RCC>

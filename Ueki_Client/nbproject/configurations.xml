@@ -39,7 +39,7 @@
         <compilerSet>default</compilerSet>
       </toolsSet>
       <qt>
-        <modules>core gui</modules>
+        <modules>core gui network phonon</modules>
         <mocDir>./Forms</mocDir>
         <rccDir>./Resources</rccDir>
         <uiDir>./Forms</uiDir>
