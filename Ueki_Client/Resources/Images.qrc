@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RCC version="1.0">
-    <qresource>
-        <file>ajax-loader.gif</file>
-    </qresource>
+<RCC>
+  <qresource>
+    <file>ueki_intro.gif</file>
+    <file>ajax-loader.gif</file>
+  </qresource>
 </RCC>
