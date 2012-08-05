@@ -9,8 +9,10 @@
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
                    projectFiles="true">
+      <itemPath>Resources/English.ts</itemPath>
       <itemPath>Resources/Images.qrc</itemPath>
       <itemPath>Forms/MainMenu.ui</itemPath>
+      <itemPath>Resources/Music.qrc</itemPath>
       <itemPath>Resources/ajax-loader.gif</itemPath>
     </logicalFolder>
     <logicalFolder name="SourceFiles"

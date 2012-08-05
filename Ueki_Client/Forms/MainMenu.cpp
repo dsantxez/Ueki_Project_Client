@@ -12,6 +12,11 @@ MainMenu::MainMenu() {
     QMovie  *movie = new QMovie(":/images/ueki_intro.gif");
     widget.Movie->setMovie(movie);
     movie->start();
+    Phonon::MediaObject *music =
+     Phonon::createPlayer(Phonon::MusicCategory,
+                          Phonon::MediaSource(":/music/ueki.mp3"));
+    music->play();
+
 }
 
 MainMenu::~MainMenu() {

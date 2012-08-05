@@ -10,6 +10,7 @@
 
 #include "ui_MainMenu.h"
 #include <QMovie>
+#include <phonon/mediaobject.h>
 
 class QMovie;
 
