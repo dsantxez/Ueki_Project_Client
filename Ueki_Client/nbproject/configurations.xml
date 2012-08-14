@@ -14,6 +14,7 @@
       <itemPath>Forms/MainMenu.ui</itemPath>
       <itemPath>Resources/Music.qrc</itemPath>
       <itemPath>Resources/ajax-loader.gif</itemPath>
+      <itemPath>Resources/music/ueki.mp3</itemPath>
     </logicalFolder>
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"

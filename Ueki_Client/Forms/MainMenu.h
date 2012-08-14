@@ -19,8 +19,12 @@ class MainMenu : public QDialog {
 public:
     MainMenu();
     virtual ~MainMenu();
+public slots:
+    void enterGame();
 private:
     Ui::MainMenu widget;
+    QImage *user;
+    QImage *password;
 };
 
 #endif	/* _MAINMENU_H */

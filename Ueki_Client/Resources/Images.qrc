@@ -1,6 +1,8 @@
 <RCC>
   <qresource>
+    <file>images/password.png</file>
     <file>images/ueki_intro.gif</file>
+    <file>images/user.png</file>
     <file>images/ajax-loader.gif</file>
   </qresource>
 </RCC>
