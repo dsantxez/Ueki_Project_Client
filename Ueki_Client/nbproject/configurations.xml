@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<configurationDescriptor version="84">
+<configurationDescriptor version="88">
   <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
@@ -49,6 +49,24 @@
       </qt>
       <compileType>
       </compileType>
+      <item path="Forms/MainMenu.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Forms/MainMenu.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Forms/MainMenu.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Resources/English.ts" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Resources/Images.qrc" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Resources/Music.qrc" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Resources/ajax-loader.gif" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Resources/music/ueki.mp3" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
     </conf>
     <conf name="Release" type="4">
       <toolsSet>
@@ -73,6 +91,24 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="Forms/MainMenu.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Forms/MainMenu.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Forms/MainMenu.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Resources/English.ts" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Resources/Images.qrc" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Resources/Music.qrc" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Resources/ajax-loader.gif" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Resources/music/ueki.mp3" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
     </conf>
   </confs>
 </configurationDescriptor>

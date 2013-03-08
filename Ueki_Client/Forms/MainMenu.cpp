@@ -26,3 +26,8 @@ MainMenu::MainMenu() {
 
 MainMenu::~MainMenu() {
 }
+
+void MainMenu::enterGame()
+{
+    
+}
