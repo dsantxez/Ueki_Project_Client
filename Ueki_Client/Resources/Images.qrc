@@ -1,5 +1,7 @@
 <RCC>
   <qresource>
+    <file>images/UekiUserV2.png</file>
+    <file>images/UekiPasswordV2.png</file>
     <file>images/password.png</file>
     <file>images/ueki_intro.gif</file>
     <file>images/user.png</file>

@@ -9,10 +9,6 @@
 
 MainMenu::MainMenu() {
     widget.setupUi(this);
-    user = new QImage(":/images/user.png","png");
-    widget.user->setPixmap(QPixmap::fromImage(*user));
-    password = new QImage(":/images/password.png","png");
-    widget.password->setPixmap(QPixmap::fromImage(*password));
     this->connect(widget.sartu,SIGNAL(clicked()),this,SLOT(enterGame()));
     QMovie  *movie = new QMovie(":/images/ueki_intro.gif");
     widget.Movie->setMovie(movie);
